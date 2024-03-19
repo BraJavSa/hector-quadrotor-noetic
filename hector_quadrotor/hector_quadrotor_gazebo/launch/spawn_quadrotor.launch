@@ -6,9 +6,9 @@
   <arg name="tf_prefix" default="$(optenv ROS_NAMESPACE)"/>
   <arg name="controller_definition" default="$(find hector_quadrotor_controller)/launch/controller.launch"/>
 
-  <arg name="x" default="0.0"/>
-  <arg name="y" default="0.0"/>
-  <arg name="z" default="0.3"/>
+  <arg name="x" default="168"/>
+  <arg name="y" default="114"/>
+  <arg name="z" default="1.05"/>
 
   <arg name="use_ground_truth_for_tf" default="true" />
   <arg name="use_ground_truth_for_control" default="true" />
